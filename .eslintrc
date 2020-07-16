@@ -1,0 +1,79 @@
+{
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "extends": [
+        "airbnb",
+      "plugin:react/all"
+    ],
+    "parser": "babel-eslint",
+    "plugins": [
+      "react",
+      "simple-import-sort"
+    ],
+    "rules": {
+        "arrow-parens": [
+            "error",
+            "always"
+          ],
+          "camelcase": "error",
+          "comma-dangle": [
+            "error",
+            "never"
+          ],
+          "curly": [
+            "error",
+            "all"
+          ],
+          "func-names": "error",
+          "indent": [
+            "error",
+            2,
+            {
+              "SwitchCase": 1
+            }
+          ],
+          "jsx-a11y/click-events-have-key-events": "off",
+          "max-len": [
+            "error",
+            {
+              "code": 120,
+              "ignoreUrls": true,
+              "tabWidth": 2
+            }
+          ],
+          "no-console": "error",
+          "no-plusplus": "off",
+          "no-underscore-dangle": "off",
+          "no-unused-vars": "error",
+          "react/destructuring-assignment": "off",
+          "react/function-component-definition": "off",
+          "react/jsx-handler-names": "off",
+          "react/jsx-indent": [
+            "error",
+            2
+          ],
+          "react/jsx-indent-props": [
+            "error",
+            2
+          ],
+          "react/jsx-max-depth": "off",
+          "react/jsx-no-literals": "off",
+          "react/jsx-one-expression-per-line": "off",
+          "react/jsx-props-no-spreading": "off",
+          "react/no-set-state": "off",
+          "react/prop-types": "off",
+          "simple-import-sort/sort": "error",
+          "sort-keys": [
+            "error",
+            "asc",
+            {
+              "caseSensitive": false,
+              "natural": true
+            }
+          ],
+          "sort-vars": "error"
+    }
+}
